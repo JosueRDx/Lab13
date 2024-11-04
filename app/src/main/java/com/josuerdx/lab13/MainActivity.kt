@@ -4,6 +4,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.core.view.WindowCompat
+import com.josuerdx.lab13.animations.color.ColorChangeScreen
 import com.josuerdx.lab13.animations.visibility.VisibilityAnimationScreen
 import com.josuerdx.lab13.ui.theme.Lab13Theme
 
@@ -14,7 +15,8 @@ class MainActivity : ComponentActivity() {
         setContent {
             Lab13Theme {
                 // Llamar a las pantallas
-                VisibilityAnimationScreen()
+                // VisibilityAnimationScreen()
+                ColorChangeScreen()
             }
         }
     }
