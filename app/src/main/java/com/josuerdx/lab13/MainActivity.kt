@@ -5,6 +5,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.core.view.WindowCompat
 import com.josuerdx.lab13.animations.color.ColorChangeScreen
+import com.josuerdx.lab13.animations.combined.CombinedAnimationsScreen
 import com.josuerdx.lab13.animations.content.AnimatedContentScreen
 import com.josuerdx.lab13.animations.size_position.SizePositionAnimationScreen
 import com.josuerdx.lab13.animations.visibility.VisibilityAnimationScreen
@@ -20,7 +21,8 @@ class MainActivity : ComponentActivity() {
                 // VisibilityAnimationScreen()
                 // ColorChangeScreen()
                 // SizePositionAnimationScreen()
-                AnimatedContentScreen()
+                // AnimatedContentScreen()
+                CombinedAnimationsScreen()
             }
         }
     }
